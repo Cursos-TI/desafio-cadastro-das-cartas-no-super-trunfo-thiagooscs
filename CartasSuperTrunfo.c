@@ -10,8 +10,15 @@
         int População1 [50], População2[50];
         float Area1, Area2;
         float Pib1, Pib2;
-        int Pontos Turísticos1, Pontos Turísticos2;
+        int PontosTurísticos1, PontosTurísticos2;
     
+        //Leitura dos Dados
+        Carta 1
+
+        printf("Cadastro da Carta 1:\n");
+        printf("Estado (A-H): ");
+        scanf(" %c", &estado1);
+
 
 
 
