@@ -19,6 +19,8 @@
         printf("Estado (A-H): ");
         scanf(" %c", &estado1);
 
+        printf("Código da Carta (ex: %c01): ", estado1);
+        scanf("%s", codigo1);
 
 
 
