@@ -1,34 +1,42 @@
 #include <stdio.h>
-    int main(){
-        printf("desafio Super Trunfo!\n");
-       
-        //variavéis das cartas
 
-        char Estado1, Estado2;
-        char Código1 [5], Códido2 [5];
-        char Cidade1 [20], Cidade2 [20];
-        int População1 [50], População2[50];
-        float Area1, Area2;
-        float Pib1, Pib2;
-        int PontosTurísticos1, PontosTurísticos2;
-    
-        //Leitura dos Dados
-        Carta 1
+int main() {
+    char EstadoSP = 'A';
+    char CodigoSP[20] = "A01";
+    char NomeSP[30] = "São Paulo";
+    int PopulacaoSP = 12325000;
+    float AreaSP = 1521.11;
+    float PIBsp = 699000000000.28;
+    int PontosTuristicosSP = 50;
 
-        printf("Cadastro da Carta 1:\n");
-        printf("Estado (A-H): ");
-        scanf(" %c", &estado1);
+    char EstadoRJ = 'B';
+    char CodigoRJ[20] = "B02";
+    char NomeRJ[30] = "Rio de Janeiro";
+    int PopulacaoRJ = 6748000;
+    float AreaRJ = 1200.25;
+    float PIBrj = 300000000000.50;
+    int PontosTuristicosRJ = 30;
 
-        printf("Código da Carta (ex: %c01): ", estado1);
-        scanf("%s", codigo1);
+    // Informações da carta 1
+    printf("Estado: %c\n", EstadoSP);
+    printf("Código: %s\n", CodigoSP);
+    printf("Nome: %s\n", NomeSP);
+    printf("População: %d de pessoas\n", PopulacaoSP);
+    printf("Área (em km²): %.2f km²\n", AreaSP);    
+    printf("PIB: %.2Lf R$\n", PIBsp);
+    printf("Número de pontos de turísticos: %d\n", PontosTuristicosSP);
+    printf("\n");
+ 
+     
+    // Informações da carta 2
+    printf("Estado: %c\n", EstadoRJ);
+    printf("Código: %s\n", CodigoRJ);
+    printf("Nome: %s\n", NomeRJ);
+    printf("População: %d de pessoas\n", PopulacaoRJ);
+    printf("Área (em km²): %.2f km²\n", AreaRJ);    
+    printf("PIB: %.2Lf R$\n", PIBrj);
+    printf("Número de pontos de turísticos: %d\n", PontosTuristicosRJ);
+    printf("\n");
 
-
-
-
-
-
-
-
-
-
-    }
+    return 0;
+ }
