@@ -6,7 +6,7 @@ int main() {
     char NomeSP[30] = "São Paulo";
     int PopulacaoSP = 12325000;
     float AreaSP = 1521.11;
-    float PIBsp = 699000000000.28;
+    float PIBSP = 699000000000.28;
     int PontosTuristicosSP = 50;
 
     char EstadoRJ = 'B';
@@ -27,7 +27,14 @@ int main() {
     printf("Número de pontos de turísticos: %d\n", PontosTuristicosSP);
     printf("\n");
  
+    // Densidade Populacional e PIBpercapita de São Paulo   
+    float DensidadePopulacionalSP = PopulacaoSP / AreaSP; // 8102.64 hab/km²
+    float PIBpercapitaSP = PIBSP / PopulacaoSP; // 56714.00 R$
      
+    printf("A Densidade Populacional de São Paulo é: %.2f hab/km²\n",DensidadePopulacionalSP);
+    printf("O PIB per capita de São Paulo %.2fR$\n",PIBpercapitaSP);
+  
+  
     // Informações da carta 2
     printf("Estado: %c\n", EstadoRJ);
     printf("Código: %s\n", CodigoRJ);
