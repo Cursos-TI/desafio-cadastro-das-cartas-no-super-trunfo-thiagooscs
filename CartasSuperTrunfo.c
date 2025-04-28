@@ -23,7 +23,7 @@ int main() {
     printf("Nome: %s\n", NomeSP);
     printf("População: %d de pessoas\n", PopulacaoSP);
     printf("Área (em km²): %.2f km²\n", AreaSP);    
-    printf("PIB: %.2Lf R$\n", PIBsp);
+    printf("PIB: %.2Lf R$\n", PIBSP);
     printf("Número de pontos de turísticos: %d\n", PontosTuristicosSP);
     printf("\n");
  
@@ -48,12 +48,12 @@ int main() {
 
     //Densidade Populacional do Rio de Janeiro
 
-    float Densidade PopulacionalRJ = PopulacaoRJ / AreaRJ; // 5622.16 hab/km²
+    float DensidadePopulacionalRJ = PopulacaoRJ / AreaRJ; // 5622.16 hab/km²
     float PIBpercapitaRJ = PIBrj / PopulacaoRJ; //44457.62 R$
 
-    printf ("A Densidade Populacional do Rio de Janeiro é: %.2f hab/km²\n", DensidadePopulacionalRJ);
-    printf ("O PIB per capita do Rio de Janeiro é: .2fR$\n, PIBpercapitaRJ");
-    printf ("\n");
+    printf("A densidade populacional do Rio de Janeiro é: %.2f hab/km²\n", DensidadePopulacionalRJ);
+    printf("O PIB per capita do Rio de Janeiro é: %.2fR$\n", PIBpercapitaRJ);
+    printf("\n"); 
 
 
     return 0;
