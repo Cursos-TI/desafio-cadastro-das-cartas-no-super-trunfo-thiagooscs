@@ -55,6 +55,26 @@ int main() {
     printf("O PIB per capita do Rio de Janeiro é: %.2fR$\n", PIBpercapitaRJ);
     printf("\n"); 
 
+    //Comparação das Cartas
+    float SuperPoderSP = PopulacaoSP + AreaSP + PIBSP + PontosTuristicosSP + PIBpercapitaSP + 1 / DensidadePopulacionalSP;
+    float SuperPoderRJ = PopulacaoRJ + AreaRJ + PIBrj + PontosTuristicosRJ + PIBpercapitaRJ + 1 / DensidadePopulacionalRJ;
 
+    //"1" quando a carta 1 vencer/ "2" quando a carta 2 vencer
+    printf ("população: (%d) = Carta 1 venceu\n", (PopulacaoSP > PopulacaoRJ));
+    printf("Área (em km²): (%d) = Carta 1 venceu\n", (AreaSP > AreaRJ));
+    printf("PIB: (%d) = Carta 1 venceu\n", (PIBSP > PIBrj));
+    printf("Numero de pontos turísticos: (%d) = Carta 1 venceu\n", (PontosTuristicosSP > PontosTuristicosRJ));
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     return 0;
  }
