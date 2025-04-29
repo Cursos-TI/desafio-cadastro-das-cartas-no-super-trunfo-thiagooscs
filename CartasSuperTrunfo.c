@@ -23,7 +23,7 @@ int main() {
     printf("Nome: %s\n", NomeSP);
     printf("População: %d de pessoas\n", PopulacaoSP);
     printf("Área (em km²): %.2f km²\n", AreaSP);    
-    printf("PIB: %.2Lf R$\n", PIBSP);
+    printf("PIB: %.2f R$\n", PIBSP);
     printf("Número de pontos de turísticos: %d\n", PontosTuristicosSP);
     printf("\n");
  
@@ -64,17 +64,15 @@ int main() {
     printf("Área (em km²): (%d) = Carta 1 venceu\n", (AreaSP > AreaRJ));
     printf("PIB: (%d) = Carta 1 venceu\n", (PIBSP > PIBrj));
     printf("Numero de pontos turísticos: (%d) = Carta 1 venceu\n", (PontosTuristicosSP > PontosTuristicosRJ));
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    printf("PIB percapita: (%d) = Carta 1 venceu\n", (PIBpercapitaSP > PIBpercapitaRJ));
+    printf("Densidade Populacional: (%d) = Carta 2 venceu\n", (1 / DensidadePopulacionalSP > 1 / DensidadePopulacionalRJ));
+    printf("Super poder: (%d) = Carta 1 venceu\n", (SuperPoderSP > SuperPoderRJ));
+    printf("\n");
+
+   // Comparação de cartas
+   printf("Comparação de cartas (atributo: população)\n");
+   printf("Carta 1: São Paulo: %d\n", PopulacaoSP);
+   printf("Carta 2: Rio de Janeiro %d\n", PopulacaoRJ); 
     
     return 0;
  }
