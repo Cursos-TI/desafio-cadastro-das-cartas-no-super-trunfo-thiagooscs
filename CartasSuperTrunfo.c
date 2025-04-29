@@ -4,7 +4,7 @@ int main() {
     char EstadoSP = 'A';
     char CodigoSP[20] = "A01";
     char NomeSP[30] = "São Paulo";
-    int PopulacaoSP = 12325000;
+    unsigned long int PopulacaoSP = 12325000;
     float AreaSP = 1521.11;
     float PIBSP = 699000000000.28;
     int PontosTuristicosSP = 50;
@@ -12,7 +12,7 @@ int main() {
     char EstadoRJ = 'B';
     char CodigoRJ[20] = "B02";
     char NomeRJ[30] = "Rio de Janeiro";
-    int PopulacaoRJ = 6748000;
+    unsigned long int PopulacaoRJ = 6748000;
     float AreaRJ = 1200.25;
     float PIBrj = 300000000000.50;
     int PontosTuristicosRJ = 30;
